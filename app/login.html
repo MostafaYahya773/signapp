@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>System</title>
+    <link rel="stylesheet" href="./style/bootstrap.min.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row system__box w-75 mx-auto my-5 rounded-4 h-100">
+        <div class="col-sm-12">
+          <div class="item">
+            <h1 class="text-capitalize text-center my-5 text-white">
+              smart login system
+            </h1>
+            <input
+              placeholder="Enter Your Gmail"
+              class="form-control mb-4 w-75 m-auto"
+              type="text"
+              id="loginemail"
+            />
+            <input
+              placeholder="Enter Your Password"
+              class="form-control w-75 m-auto"
+              type="number"
+              id="loginpass"
+            />
+            <div id="emptyvaluelog"></div>
+            <button
+              id="LoginBtn"
+              class="btnn signlogBtn my-5 w-75 m-auto d-block"
+            >
+              Login
+            </button>
+            <p class="text-white text-center">
+              You don't have an account?
+              <a id="link" class="text-white" href="./signup.html">sign Up</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary-color: #3c3d37;
+  --secondry-color: #181c14;
+  --white-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
+.system__box {
+  background-color: var(--secondry-color);
+}
+
+.btnn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  min-height: 37.6px;
+  border-radius: 7px;
+  border: 1px solid var(--white-color);
+  color: var(--white-color);
+}
+
+.btnn:hover {
+  background-color: var(--white-color);
+  color: var(--primary-color);
+  transition: all 0.5s;
+}
+
+.Message {
+  background-color: var(--secondry-color);
+  height: 120px;
+}
